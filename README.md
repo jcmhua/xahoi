@@ -1,2 +1,2 @@
 # xahoi
-An Interesting Social Media Site
+An Interesting Site
