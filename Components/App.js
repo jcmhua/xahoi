@@ -1,12 +1,13 @@
 import React from 'react';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
-import Main from "./Components/Main"
+import { AppContainer } from 'react-hot-loader'
+import Start from "./Start"
 
 export function App(){
   return
   <BrowserRouter>
       <Switch>
-          <Route exact path ="/" component={Main} />
+          <Route exact path ="/" component={Start} />
       </Switch>
   </BrowserRouter>
 
