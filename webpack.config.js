@@ -4,17 +4,18 @@ module.exports = {
   devServer: {
     hot: true
   },
-  entry:{
+  entry:
     [
-      'babel-polyfill',
       'react-hot-loader/patch',
-      './App.js'
-    ]
-  },
+      './entry.js'
+    ],
   module: {
     rules: [
       { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" }
     ]
+  },
+  output: {
+    publicPath: "/"
   },
   plugins: [
     new webpack.NamedModulesPlugin(),
