@@ -5,6 +5,7 @@
   "main": "app.js",
   "dependencies": {},
   "devDependencies": {
+    "babel-loader": "^7.1.2",
     "webpack": "^3.8.1"
   },
   "scripts": {
